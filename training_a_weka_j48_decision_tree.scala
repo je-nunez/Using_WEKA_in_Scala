@@ -39,7 +39,7 @@ training_data.setClassIndex(training_data.numAttributes() - 1);
 
 // Build the decision tree based on the training instances from ARFF file
 
-j48_decision_tree.setOptions(Array("U"));   // "U": an unpruned decision tree
+j48_decision_tree.setOptions(Array("-U"));   // "-U": an unpruned decision tree
 j48_decision_tree.buildClassifier( training_data );
 
 val tree_as_java_cl = j48_decision_tree.toSource("MyJavaClassName_to_Decide");
