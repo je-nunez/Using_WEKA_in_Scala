@@ -16,9 +16,9 @@ This project is a *work in progress*. The implementation is *incomplete* and sub
 
 Script `training_a_weka_j48_decision_tree.scala`:
 
-     Loads a training set in ARFF format, constructs a WEKA J48 (Ross Quinlan's C4.5)
-     decision tree in Scala from this training set, and visualizes the resulting
-     decision tree and also prints it as a Java class.
+     Loads a training set in ARFF format, constructs a WEKA J48 (Ross Quinlan's C4.5
+     revision 8) decision tree in Scala from this training set, and visualizes the
+     resulting decision tree and also prints it as a Java class.
 
      (The visualization of the tree requires a graphical window-manager, ie., in Unix
      the DISPLAY X Window variable, or in Windows access to the GUI.)
